@@ -1,9 +1,9 @@
 ### Date created
 20/11/2019
 ### Project Title
-Post Your Work on GitHub
+Posting my python Work on GitHub
 ### Description
-The aim of this project is to learn how to use virsion control and crating a repo on your local machine   
+The aim of this project is to learn how to use git command and create a repo on your local machine   
 ### Files used
 bikeshare.py
 chicago.csv
