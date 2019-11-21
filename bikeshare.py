@@ -188,6 +188,8 @@ def user_stats(df):
         print("\nEarliest year of birth: " + str(earliest_birth_year))
         print("\nMost recent year of birth: " + str(most_recent_birth_year))
         print("\nMost common year of birth: " + str(common_birth_year))
+        print("\nOldest Bikesharer Age: " str(round(2019-(earliest_birth_year),1)),"Year-old")
+        print("\nOldest Bikesharer Age: " str(round(2019-(most_recent_birth_year),1)),"Year-old")
         print("\nAverage age is: ", str(round(2019 - (average_age),1))," year-old")
         print("\nStandard deviation age is: ", str(round(2019 - (std_age),1))," year")
         print("\nThe great majority of the users is between:", round(2019 - (average_age),1), " + or - ", round(2019 - (std_age),1))
